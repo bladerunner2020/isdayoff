@@ -1,0 +1,23 @@
+{
+  "name": "isdayoff",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "bladerunner2020 <pivovarov@gmail.com>",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "js-yaml": "^3.14.0"
+  }
+}
