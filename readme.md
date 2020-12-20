@@ -11,9 +11,9 @@ npm install isdayoff --save
 ## Usage
 
 ```js
-const api = require('..')();
+const api = require('isdayoff')();
 // Alternatively API object can be cerated:
-// const { IsDayOffAPI } = require('..');
+// const { IsDayOffAPI } = require('isdayoff');
 // const api = new IsDayOffAPI();
 
 // returns is today wokring/non-working day
