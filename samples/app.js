@@ -6,10 +6,13 @@ debug.enable('isdayoff');
 debug.log = console.log.bind(console);
 
 api.period({
-  start: new Date('2020-09-10'),
-  end: new Date('2020-09-15')
+  start: new Date('2020-01-01'),
+  end: new Date('2021-01-01')
 })
-  .then((res) => console.log(JSON.stringify(res)))
+  .then((res) => {
+    console.log(`Days: ${res.length}`);
+    console.log(JSON.stringify(res));
+  })
   .catch((err) => console.log(err.message));
 
 // api.today()
